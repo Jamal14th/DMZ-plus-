@@ -1,0 +1,38 @@
+{
+  "package": "com.facub8.dmzsuper.mixins",
+  "refmap": "dmzsuper.refmap.json",
+  "mixins": [
+    "StatusMixin",
+    "ResourcesMixin",
+    "StatsDataMixin",
+    "SkillsConfigMixin",
+    "DefaultFormsFactoryMixin",
+    "SkillsMixin",
+    "TickHandlerMixin",
+    "GravityLogicMixin",
+    "SkillsCommandMixin",
+    "TravelToPlanetC2SMixin",
+    "UpdateSkillC2SMixin",
+    "ExecuteActionMixin",
+    "TransformationsHelperMixin",
+    "ExecuteActionC2SMixin",
+    "FormDataMixin",
+    "StackFormModeHandlerMixin"
+  ],
+  "client": [
+    "client.DMZSkinLayerMixin",
+    "client.DMZHairLayerMixin",
+    "client.SpacePodScreenMixin",
+    "client.MastersSkillsScreenMixin",
+    "client.MastersSkillsScreenCostMixin",
+    "client.ScreenAccessor",
+    "client.CharacterStatsScreenMixin",
+    "client.StackSkillNodeMixin",
+    "client.UtilityMenuScreenMixin",
+    "client.ClientStatsEventsMixin",
+    "client.SkillsMenuScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
